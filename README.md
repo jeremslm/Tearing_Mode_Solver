@@ -11,5 +11,12 @@ Here is an example of how to use this function.
 import tm_solver.solver as solver
 f = solver.delta_prime_solver
 
-d
+# function parameters
+T = 5 # ratio between the toroidal component and the major radius (see the def of q)
+m = 2 # number of poloidal Fourier modes
+n = 1 # number of toroidal Fourier modes
+q = '1.2*(1+(r/0.81)**2)' # q profile
+
+# Computing delta_prime
+delta_prime = f(T, m, n, q) 
 ```
