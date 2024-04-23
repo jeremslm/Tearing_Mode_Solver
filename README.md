@@ -2,7 +2,7 @@
 This git contains the package tm_solver allowing the use of the function delta_prime_solver() that gives the stability of resistive tearing modes $\Delta'$. 
 In order to use it, write on your terminal the following steps :
 1. git clone https://github.com/jeremslm/Tearing_Mode_Solver.git
-2. cd Tearing/Mode/Solver
+2. cd Tearing_Mode_Solver
 3. pip install . 
 
 Here is an example of how to use this function. 
