@@ -10,4 +10,6 @@ Here is an example of how to use this function.
 ```
 import tm_solver.solver as solver
 f = solver.delta_prime_solver
+
+d
 ```
