@@ -1,3 +1,9 @@
+# Libraries
+import numpy as np
+from scipy.integrate import solve_bvp
+import matplotlib.pyplot as plt
+import sympy as sym
+
 __all__ = ["delta_prime_solver"]
 
 def delta_prime_solver(T, m, n, q_string):
@@ -12,11 +18,6 @@ def delta_prime_solver(T, m, n, q_string):
          Example : delta_prime_test = delta_prime_solver(T=1, m=2, n=1, q_string='1.2*(1+(r/0.81)**2)')
                    For more explicit example, SEE explicit_delta_prime_solver.ipynb
     """  
-    # Libraries
-    import numpy as np
-    from scipy.integrate import solve_bvp
-    import matplotlib.pyplot as plt
-    import sympy as sym
 
     # q profile as SymPy expression
     def q_sym(q_string, numerical=False):
