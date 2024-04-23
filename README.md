@@ -7,5 +7,7 @@ In order to use it, write on your terminal the following steps :
 
 Here is an example of how to use this function. 
 
-```import tm_solver.solver as solver
-f = solver.delta_prime_solver```
+```
+import tm_solver.solver as solver
+f = solver.delta_prime_solver
+```
