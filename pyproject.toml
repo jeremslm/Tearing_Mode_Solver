@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tm_solver"
+authors = [
+    {name = "Example Author", email = "author@example.com"}
+]
+description = "package description"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+   "matplotlib"
+]
