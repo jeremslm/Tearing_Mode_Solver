@@ -12,7 +12,7 @@ import tm_solver.solver as solver
 f = solver.delta_prime_solver
 
 # function parameters
-T = 5 # ratio between the toroidal component and the major radius (see the def of q)
+T = 5 # ratio between the toroidal component and the major radius
 m = 2 # number of poloidal Fourier modes
 n = 1 # number of toroidal Fourier modes
 q = '1.2*(1+(r/0.81)**2)' # q profile
