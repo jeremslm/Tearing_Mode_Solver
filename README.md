@@ -26,4 +26,3 @@ $q(r) = q_{0}\left[1+\left(\frac{r}{r_{0}}\right)^{2}\right]$, with $r_{0}=0.81$
 
 Then, by computing $\Delta'$, it's possible the stable & unstable regime 
 
-![Texte alternatif](/Ce PC/Bureau/Master PH/MA2/TP4_II/solver_delta_prime/images/stability_regime.png)
