@@ -22,4 +22,4 @@ delta_prime = f(T, m, n, q)
 ```
 Another example can be given by considering a family of equilibria with a $q$ profile having the shape 
 
-$q(r) = q_{0}\left[1+\left(\frac{r}{r_{0}}\right)^{2}\right]$, with $r_{0}=0.81$ and $q_{0}\in\{0.9, 1.6\}$
+$q(r) = q_{0}\left[1+\left(\frac{r}{r_{0}}\right)^{2}\right]$, with $r_{0}=0.81$ and $q_{0}\in\[0.9, 1.6\]$
