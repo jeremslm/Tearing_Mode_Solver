@@ -21,4 +21,5 @@ q = '1.2*(1+(r/0.81)**2)' # q profile
 delta_prime = f(T, m, n, q) 
 ```
 Another example can be given by considering a family of equilibria with a $q$ profile having the shape 
+
 $q(r) = q_{0}\left[1+\left(\frac{r}{r_{0}}\right)^{2}\right]$
