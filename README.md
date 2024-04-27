@@ -5,7 +5,7 @@ In order to use it, write on your terminal the following steps :
 2. cd Tearing_Mode_Solver
 3. pip install . 
 
-Here is an example of how to use this function. 
+Here is a sketch of how to use this function. 
 
 ```
 import tm_solver.solver as solver
@@ -20,9 +20,22 @@ q = '1.2*(1+(r/0.81)**2)' # q profile
 # Computing delta_prime
 delta_prime = f(T, m, n, q) 
 ```
-Another example can be given by considering a family of equilibria with a $q$ profile having the shape 
+
+$\textbf{EXAMPLE 1}$
+
+Let's consider a family of equilibria with a $q$ profile having the shape 
 
 $q(r) = q_{0}\left[1+\left(\frac{r}{r_{0}}\right)^{2}\right]$, with $r_{0}=0.81$ and $q_{0}\in\[0.9, 1.6\]$
 
-Then, by computing $\Delta'$, it's possible the stable & unstable regime 
+Then, by computing $\Delta'$ for a range of $q_{0}$, it's possible get the stable & unstable regimes 
+
+![stability_regime](https://github.com/jeremslm/Tearing_Mode_Solver/assets/130314261/ee483fd4-31e7-452e-ad91-2d17e605e51c)
+
+$\textbf{EXAMPLE 2}$
+
+By taking the same shape of $q$ profile as above, but now with a fixed $q_{0} = 1.2$ and by considering a range $r_{0}\in\[0.2, 1.2\]$, the stable & unstable regimes can be observed
+
+![stability_regime_2](https://github.com/jeremslm/Tearing_Mode_Solver/assets/130314261/4de99892-6ffe-4b43-9f83-cbb1f0716aaf)
+
+
 
