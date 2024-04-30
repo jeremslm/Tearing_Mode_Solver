@@ -31,7 +31,7 @@ where $r_{s}$ is the resonant surface.
 
 $\textbf{PERTURBED FLUX FUNCTION SOLVING}$
 
-The code that perform this plot can be found in the file "perturbed_flux_function.ipynb", in the folder "example".
+The code that perform this plot can be found in the file "perturbed_flux_function.ipynb", in the folder "examples".
 
 As shown above, $\Delta'$ depends on the perturbed flux function and its radial derivative, $\psi$ & $\psi'$. $\psi$ can be computed numerically by solving the differential equation given by 
 
@@ -59,7 +59,7 @@ and with the $q$ profile given by $q(r) = q_{0}\left[1+\left(\frac{r}{r_{0}}\rig
 
 $\textbf{EXAMPLE 1}$
 
-The code that perform this plot can be found in the file "example_1.ipynb", in the folder "example".
+The code that perform this plot can be found in the file "example_1.ipynb", in the folder "examples".
 
 In this example, the goal is to reproduce *Figure 3* of [1]. Let's consider a family of equilibria with a $q$ profile having the shape 
 
@@ -73,7 +73,7 @@ Then, by computing $\Delta'$ for a range of $q_{0}$, it's possible get the stabl
 
 $\textbf{EXAMPLE 2}$
 
-The code that perform this plot can be found in the file "example_2.ipynb", in the folder "example".
+The code that perform this plot can be found in the file "example_2.ipynb", in the folder "examples".
 
 By taking the same shape of $q$ profile as above, but now with a fixed $q_{0} = 1.2$ and by considering a range $r_{0}\in\[0.2, 1.2\]$, the stable & unstable regimes can be observed
 
