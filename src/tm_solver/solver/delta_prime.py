@@ -1,3 +1,8 @@
+"""
+File Name: delta_prime.py
+Written by : Salm Jérémy, EPFL (jeremy.salm@epfl.ch)
+Date Created: April 2024
+"""
 # Libraries
 import numpy as np
 from scipy.integrate import solve_bvp
