@@ -1,7 +1,7 @@
 """
-File Name: delta_prime.py
-Written by : Salm Jérémy, EPFL (jeremy.salm@epfl.ch)
-Date Created: April 2024
+FILE NAME : delta_prime.py
+WRITTEN BY : Salm Jérémy, EPFL (jeremy.salm@epfl.ch)
+CREATED IN : April 2024
 """
 # Libraries
 import numpy as np
